@@ -49,6 +49,6 @@ async def obc_error(ctx, error):
         await ctx.send("Error: You must have Administrator privileges to use this command.")
 
 
-SECRET_TOKEN = "PASTE_HER_YOUR_TOKEN"
+SECRET_TOKEN = "PASTE_HERE_YOUR_TOKEN"
 
 bot.run(SECRET_TOKEN)
