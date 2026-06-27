@@ -2,10 +2,9 @@ import discord
 from discord.ext import commands
 import asyncio
 
-# Setup bot configuration
 intents = discord.Intents.default()
-intents.members = True          # Allows the bot to view your server's member list
-intents.message_content = True  # Allows the bot to process the command text
+intents.members = True          
+intents.message_content = True  
 
 bot = commands.Bot(command_prefix="-", intents=intents)
 
@@ -24,7 +23,7 @@ async def official_broadcast(ctx, *, message: str):
     fail_count = 0
 
     for member in ctx.guild.members:
-        # Prevent the bot from attempting to message itself or other bots
+        
         if member.bot:
             continue
 
@@ -39,7 +38,7 @@ async def official_broadcast(ctx, *, message: str):
             fail_count += 1
             print(f"[ERROR] API rate limit or error for {member.name}: {e}")
 
-        # Mandated 3-second delay to slow down execution and reduce API flags
+        
         await asyncio.sleep(3)
 
     await ctx.send(f"Broadcast concluded. Successfully sent: {success_count} | Failed: {fail_count}")
@@ -49,7 +48,7 @@ async def obc_error(ctx, error):
     if isinstance(error, commands.MissingPermissions):
         await ctx.send("Error: You must have Administrator privileges to use this command.")
 
-# PASTE YOUR NEWLY RESET TOKEN INSIDE THE QUOTES BELOW:
-SECRET_TOKEN = "MTUyMDQ5NDYyMzI2NzYyMjkxMg.GSlUem.1jHkkCgEtr8vIk8Ap5nYu-L1Qn5AvG4clM7BYM"
+
+SECRET_TOKEN = "PASTE_HER_YOUR_TOKEN"
 
 bot.run(SECRET_TOKEN)
