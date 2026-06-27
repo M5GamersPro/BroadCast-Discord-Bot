@@ -1,0 +1,4 @@
+discord.py
+legacy-cgi
+aiohttp
+typing_extensions
