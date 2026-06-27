@@ -14,7 +14,7 @@ Open your system terminal (Command Prompt on Windows or Terminal on macOS) and r
 git clone https://github.com/BossProGamerYT/BroadCast-Discord-Bot
 ```
 
-cd Broadcast-Bot
+cd Broadcast-Discord-Bot
 ```
 
 ### Step 2: Install System Dependencies
