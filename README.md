@@ -3,6 +3,7 @@
 An efficient, custom-built Discord utility bot engineered to broadcast text announcements to server members via Direct Messages. Built using Python and the `discord.py` framework, this project supports legacy compatibility patches for modern Python runtime environments (including Python 3.14).
 
 ---
+<img width="1376" height="768" alt="image_7b894b9" src="https://github.com/user-attachments/assets/52e29d20-e4cd-49d2-983a-e5c583cb3303" />
 
 ## 🛠️ Complete Local Installation Setup
 
