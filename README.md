@@ -2,8 +2,6 @@
 
 An efficient, custom-built Discord utility bot engineered to broadcast text announcements to server members via Direct Messages. Built using Python and the `discord.py` framework, this project supports legacy compatibility patches for modern Python runtime environments (including Python 3.14).
 
-Please feel free to support me by starring this repository or supporting me by subscribing to my youtube channel
-   [https://www.youtube.com/@m5gamerspro]
 ---
 
 ## 🛠️ Complete Local Installation Setup
@@ -13,7 +11,7 @@ Follow these exact steps to download, install, and execute this bot repository l
 ### Step 1: Clone the Project Workspace
 Open your system terminal (Command Prompt on Windows or Terminal on macOS) and run the following command to download this project folder:
 ```bash
-git clone https://github.com/BossProGamerYT/BroadCast-Discord-Bot
+git clone https://github.com/M5GamersPro/BroadCast-Discord-Bot
 ```
 
 cd Broadcast-Discord-Bot
@@ -97,3 +95,6 @@ Input these exact configurations on the deployment creation workspace screen:
 
 ## ⚠️ Security Notice & Platform Policy
 **Important Disclaimer:** Automated mass direct messaging features run an extremely high risk of triggering automated spam detection algorithms on the Discord network. This utility script is engineered exclusively for closed, internal community management distribution. The repository author does not accept liability for administrative account terminations resulting from platform manipulation violations or policy non-compliance. **Never commit your active production token keys directly to public GitHub files.**
+
+M5
+EnzoCord
